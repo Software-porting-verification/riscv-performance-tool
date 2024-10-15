@@ -1,5 +1,6 @@
 #include "perf_wrapper.h"
 #include <stdio.h>
+#include <string.h>
 
 uint64_t read_perf_cycles(const char *label) {
     // 假设我们在硬件上使用 perf 或直接使用 rdcycle 指令
